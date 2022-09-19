@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid;
+}
+
+nav {
+  display: flex;
+  gap: 8px;
+}
+
+nav > * {
+  background: blue;
+  color: #fff;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  text-decoration: none;
+}
